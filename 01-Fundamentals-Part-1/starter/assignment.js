@@ -1,6 +1,15 @@
-let country = "Philippines";
+const country = "Philippines";
 let continent = "Asia";
-let population = "117.7 Millions";
+const isIsland = true;
+let population = 117.1;
+let laguage;
+
+console.log(typeof country);
+console.log(typeof population);
+console.log(typeof isIsland);
+console.log(typeof laguage);
+
+laguage = "Tagalog";
 
 console.log(country, continent, population);
 console.log(country);
